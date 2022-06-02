@@ -2,11 +2,7 @@
 ## Frontend Developer
 
 
-## Contact information:
-* **Phone:** +7 705 253 7595
-* **E-mail:** gorodetsky1392@gmail.com
-* **Telegram:**@TimurGorodetsky
-* [LinkedIn](https://www.linkedin.com/in/%D1%82%D0%B8%D0%BC%D1%83%D1%80-%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%D1%86%D0%BA%D0%B8%D0%B9-019b911a4/)
+
 
 ## About Me
  I am a talented, ambitious and hardworking individual, with broad skills and experience in web developing.
