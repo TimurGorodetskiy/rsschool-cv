@@ -4,10 +4,119 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Gorodetsky Timur</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/13c747063e.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1>Timur Gorodetsky</h1>
+    <div class="container">
+      <header class="cv-header">
+        <nav>
+          
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#links">Links</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#code">Code</a>
+          
+        </nav>
+      </header>
+      <main class="cv-main">
+        <aside class="block-left">
+          <img src="images/photo.jpeg" alt="photo">
+          <h1>Timur Gorodetsky</h1>
+          <p>Frontend Developer</p>
+          <section class="personal-information">
+            <h2>Info</h2>
+            <p class="info">November 16, 1992</p>
+            <p class="info">+7 705 253 75 95</p>
+            <p class="info">gorodetsky1392@gmail.com</p>
+            <p class="info">Almaty, Kazakhstan</p>
+          </section>
+
+          <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS (Bootstrap, SASS/SCSS, BEM)</li>
+              <li>JavaScript (Fundamentals, ES6+, DOM, JSON, Asynchronous JavaScript)</li>
+              <li>Git/GitHub</li>
+              <li>Avocode, Zeplin, Photoshop</li>
+            </ul>
+          </section>
+
+          <section class='links' id="links">
+            <h2>Links</h2>
+          <div class="link-container">
+            <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/%D1%82%D0%B8%D0%BC%D1%83%D1%80-%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5%D1%86%D0%BA%D0%B8%D0%B9-019b911a4/?originalSubdomain=kz">Linkedin</a>
+          </div>
+          <div class="link-container">
+            <i class="fab fa-telegram"></i>
+            <a href="https://t.me/TimurGorodetsky">Telegram</a>
+          </div>
+          
+          </section>
+           
+
+        </aside>
+        <div class="block-right">
+          <section class="about" id="about">
+            <h2>About</h2>
+            <p> I am a talented, ambitious and hardworking individual, with broad
+              skills and experience in web developing. Furthermore, I am adept at
+              handling multiple tasks on a daily basis competently and at working
+              well under pressure. A key strength is communication; building
+              strong relationships with people in order to deliver the best
+              results.</p>
+          </section>
+
+          <section class="education" id="education">
+            <h2>Education</h2>
+            <ul>
+              <li>Almaty Technological University
+                <ul>
+                  <li>Bachelor technics and technologies</li>
+                </ul>
+              </li>             
+            </ul>
+          </section>
+
+          <section class="projects" id="projects">
+            <h2>Projects</h2>
+          </section>
+
+          <section class="code" id="code">
+            <h2>Code Example</h2>
+          <pre>
+              <code class="language-javascript">
+          const sum = (a, b) => {
+            console.log(a + b)
+          }                       
+               </code>
+             </pre>
+          </section>
+          <section class="language">
+            <h2>Language</h2>
+          <ul>
+            <li>English - B1</li>
+            <li>Russian - native</li>
+          </ul>
+          </section>
+        </div>
+      </main>
+        
+     
+      <footer class="cv-footer">
+        <div class="github-container">  
+         
+          <a href="https://github.com/TimurGorodetskiy"> <i class="fab fa-github">Github</i></a>       
+        </div>
+       
+        <p>2021</p>
+        <img src="https://rs.school/images/rs_school_js.svg" alt="rs-logo">
+      </footer> 
+    </div>
   </body>
 </html>
